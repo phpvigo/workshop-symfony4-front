@@ -1,29 +1,24 @@
-# vuetify-api
+# Workshop Symfony 4 Front
 
-## Project setup
+This is a Vue & Vuetify frontend for https://github.com/phpvigo/workshop-symfony4/tree/api-platform.
+
+
+## Config
+Copy `.env.local.example` to `.env.local`, set your enviroment config in `.env.local`
+
+
+## Install
 ```
-npm install
+yarn
 ```
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+yarn serve
 ```
 
 ### Compiles and minifies for production
 ```
-npm run build
+yarn build
 ```
 
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
