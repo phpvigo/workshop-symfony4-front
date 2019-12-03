@@ -123,7 +123,6 @@
       tableOptions: {
         handler () {
           this.getTweets()
-
         },
         deep: true
       }
@@ -144,9 +143,6 @@
             this.totalItems = res.data['hydra:totalItems']
           })
       }
-    },
-    mounted () {
-      this.$nextTick(() => this.getTweets())
     }
   }
 </script>
